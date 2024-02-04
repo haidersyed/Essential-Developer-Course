@@ -5,6 +5,7 @@
 //  Created by Haider Rizvi on 04/02/2024.
 //
 
+
 import Foundation
 import XCTest
 import EssentialFeed
@@ -16,10 +17,14 @@ class URLSessionHTTPClient {
         self.session = session
     }
     
+    struct UnexpectedValuesRepresentation: Error{}
+    
     func get(from url: URL, completion:@escaping (HTTPClientResult) -> Void){
         session.dataTask(with: url){ _, _, error in
             if let error = error {
                 completion(.failure(error))
+            } else {
+                completion(.failure(UnexpectedValuesRepresentation()))
             }
         }.resume()
     }
@@ -56,7 +61,7 @@ class  URLSessionHTTPClientTests: XCTestCase {
     }
     
     func test_getFromURL_failsOnRequestError(){
-        
+       
         let url = anyURL()
         let error  = NSError(domain: "any error", code: 1)
         URLProtocolStub.stub(data: nil, response: nil, error: error)
@@ -73,7 +78,30 @@ class  URLSessionHTTPClientTests: XCTestCase {
             }
             
             exp.fulfill()
+        
+        }
+        wait(for: [exp], timeout: 1.0)
+        
+    }
+    
+    func test_getFromURL_failsOnAllNilValues(){
+       
+        let url = anyURL()
+        URLProtocolStub.stub(data: nil, response: nil, error: nil)
+        
+        
+        let exp = expectation(description: "Wait for completion")
+        
+        makeSUT().get(from: url) {result in
+            switch result {
+            case .failure:
+               break
+            default:
+                XCTFail("Expected failure got \(result) instead")
+            }
             
+            exp.fulfill()
+        
         }
         wait(for: [exp], timeout: 1.0)
         
@@ -86,7 +114,7 @@ class  URLSessionHTTPClientTests: XCTestCase {
         trackForMemoryLeaks(sut,file: file, line: line)
         return sut
     }
-
+    
     private  func anyURL() -> URL {
         return URL(string: "http://any-url.com")!
     }
@@ -122,7 +150,7 @@ class  URLSessionHTTPClientTests: XCTestCase {
         
         override class func canInit(with request: URLRequest) -> Bool {
             requestObserver?(request)
-            return true
+           return true
         }
         
         override class func canonicalRequest(for request: URLRequest) -> URLRequest {
