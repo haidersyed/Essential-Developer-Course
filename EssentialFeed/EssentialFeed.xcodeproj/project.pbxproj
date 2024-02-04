@@ -15,6 +15,7 @@
 		C4A1D3F12B6FBCFD00F9C2CF /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3F02B6FBCFD00F9C2CF /* FeedLoader.swift */; };
 		C4A1D3F42B6FBDD400F9C2CF /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3F32B6FBDD400F9C2CF /* RemoteFeedLoaderTests.swift */; };
 		C4A1D3F62B6FC0E500F9C2CF /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3F52B6FC0E500F9C2CF /* RemoteFeedLoader.swift */; };
+		C4A1D3F92B6FE7FC00F9C2CF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3F82B6FE7FC00F9C2CF /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		C4A1D3F02B6FBCFD00F9C2CF /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		C4A1D3F32B6FBDD400F9C2CF /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		C4A1D3F52B6FC0E500F9C2CF /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
+		C4A1D3F82B6FE7FC00F9C2CF /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C4A1D3D82B6FBAEA00F9C2CF /* EssentialFeed.docc */,
 				C4A1D3F22B6FBD6E00F9C2CF /* Feed Feature */,
 				C4A1D3F72B6FC0EB00F9C2CF /* Feed Api */,
+				C4A1D3F82B6FE7FC00F9C2CF /* HTTPClient.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A1D3F62B6FC0E500F9C2CF /* RemoteFeedLoader.swift in Sources */,
+				C4A1D3F92B6FE7FC00F9C2CF /* HTTPClient.swift in Sources */,
 				C4A1D3F12B6FBCFD00F9C2CF /* FeedLoader.swift in Sources */,
 				C4A1D3EF2B6FBC6E00F9C2CF /* FeedItem.swift in Sources */,
 				C4A1D3D92B6FBAEA00F9C2CF /* EssentialFeed.docc in Sources */,
