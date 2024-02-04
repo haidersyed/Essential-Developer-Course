@@ -5,6 +5,8 @@
 //  Created by Haider Rizvi on 04/02/2024.
 //
 
+import Foundation
+
 public enum  HTTPClientResult {
     case success(Data,HTTPURLResponse)
     case failure(Error)
@@ -23,18 +25,23 @@ public final class RemoteFeedLoader {
         case  invalidData
     }
     
+    public enum Result: Equatable {
+        case success([FeedItem])
+        case failure(Error)
+    }
+    
     public init(url: URL, client: HTTPClient) {
         self.client = client
         self.url = url
     }
     
-    public func load(completion: @escaping (Error) -> Void) {
+    public func load(completion: @escaping (Result) -> Void) {
         client.get(from: url){ result in
             switch result {
             case .success:
-                completion(.invalidData)
+                completion(.failure(.invalidData))
             case.failure:
-                completion(.connectivity)
+                completion(.failure(.connectivity))
             }
         }
     }
