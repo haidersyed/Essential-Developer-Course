@@ -22,6 +22,7 @@
 		C4A1D4032B70200800F9C2CF /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D4022B70200800F9C2CF /* URLSessionHTTPClient.swift */; };
 		C4A1D40C2B70270A00F9C2CF /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D3D42B6FBAEA00F9C2CF /* EssentialFeed.framework */; };
 		C4A1D4142B70280600F9C2CF /* EssentialFeedApiEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D4122B70278300F9C2CF /* EssentialFeedApiEndToEndTests.swift */; };
+		C4A1D4182B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D4172B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		C4A1D4022B70200800F9C2CF /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		C4A1D4082B70270A00F9C2CF /* EssentialFeedApiEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedApiEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A1D4122B70278300F9C2CF /* EssentialFeedApiEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedApiEndToEndTests.swift; sourceTree = "<group>"; };
+		C4A1D4172B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				C4A1D3FF2B7018C800F9C2CF /* Helper */,
 				C4A1D3E32B6FBAEB00F9C2CF /* EssentialFeedTests.swift */,
 				C4A1D3FC2B7008B900F9C2CF /* Feed Api */,
+				C4A1D4172B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				C4A1D3F42B6FBDD400F9C2CF /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				C4A1D4012B7018D100F9C2CF /* XCTestCase+MemoryLeakTracking.swift in Sources */,
+				C4A1D4182B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift in Sources */,
 				C4A1D3FE2B70146100F9C2CF /* URLSessionHTTPClientTests.swift in Sources */,
 				C4A1D3E42B6FBAEB00F9C2CF /* EssentialFeedTests.swift in Sources */,
 				C4A1D4142B70280600F9C2CF /* EssentialFeedApiEndToEndTests.swift in Sources */,
