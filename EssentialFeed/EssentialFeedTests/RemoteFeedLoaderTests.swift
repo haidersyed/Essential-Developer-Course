@@ -4,9 +4,12 @@
 //
 //  Created by Haider Rizvi on 04/02/2024.
 //
-
 import XCTest
 import EssentialFeed
+
+
+
+
 
 class RemoteFeedLoaderTests : XCTestCase {
     
@@ -21,18 +24,27 @@ class RemoteFeedLoaderTests : XCTestCase {
         
         sut.load()
         
-        XCTAssertEqual(client.requestedURL, url)
+        XCTAssertEqual(client.requestedURLs, [url])
     }
     
     func test_loadTwice_requestsDataFromURLTwice() {
-         let url = URL(string: "https://a-give-url.com")!
-         let (sut, client) = makeSUT(url: url)
-
-         sut.load()
-         sut.load()
-
-         XCTAssertEqual(client.requestedURLs, [url])
-     }
+        let url = URL(string: "https://a-give-url.com")!
+        let (sut, client) = makeSUT(url: url)
+        
+        sut.load()
+        sut.load()
+        
+        XCTAssertEqual(client.requestedURLs, [url,url])
+    }
+    
+    func test_load_deliversErrorOnClientError() {
+        
+        let (sut, client) = makeSUT()
+        client.error = NSError(domain: "Test", code: 0)
+        var capturedError: RemoteFeedLoader.Error?
+        sut.load{error in capturedError = error}
+        XCTAssertEqual(capturedError, .connectivity)
+    }
     
     // Mark: - Helpers
     
@@ -44,11 +56,13 @@ class RemoteFeedLoaderTests : XCTestCase {
     
     private class HTTPClientSpy: HTTPClient {
         
-        var requestedURL: URL?
         var requestedURLs = [URL]()
+        var error: Error?
         
-        func get(from url: URL) {
-            requestedURL = url
+        func get(from url: URL, completion: @escaping (Error) -> Void) {
+            if let error =  error {
+                completion(error)
+            }
             requestedURLs.append(url)
         }
         
