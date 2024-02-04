@@ -19,6 +19,7 @@
 		C4A1D3FB2B70045200F9C2CF /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3FA2B70045200F9C2CF /* FeedItemsMapper.swift */; };
 		C4A1D3FE2B70146100F9C2CF /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3FD2B70146100F9C2CF /* URLSessionHTTPClientTests.swift */; };
 		C4A1D4012B7018D100F9C2CF /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D4002B7018D100F9C2CF /* XCTestCase+MemoryLeakTracking.swift */; };
+		C4A1D4032B70200800F9C2CF /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D4022B70200800F9C2CF /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C4A1D3FA2B70045200F9C2CF /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		C4A1D3FD2B70146100F9C2CF /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		C4A1D4002B7018D100F9C2CF /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		C4A1D4022B70200800F9C2CF /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				C4A1D3EE2B6FBC6E00F9C2CF /* FeedItem.swift */,
 				C4A1D3F02B6FBCFD00F9C2CF /* FeedLoader.swift */,
+				C4A1D4022B70200800F9C2CF /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A1D4032B70200800F9C2CF /* URLSessionHTTPClient.swift in Sources */,
 				C4A1D3F62B6FC0E500F9C2CF /* RemoteFeedLoader.swift in Sources */,
 				C4A1D3F92B6FE7FC00F9C2CF /* HTTPClient.swift in Sources */,
 				C4A1D3F12B6FBCFD00F9C2CF /* FeedLoader.swift in Sources */,
