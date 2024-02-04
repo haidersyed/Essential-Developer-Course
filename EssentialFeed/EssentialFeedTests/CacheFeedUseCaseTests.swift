@@ -76,9 +76,9 @@ class CacheFeedUseCaseTests: XCTestCase {
     func test_save_doesNotRequestCacheInsertionOnDeletionError() {
         let items  = [uniqueItem(), uniqueItem()];
         let (sut, store) = makeSUT()
-        let DeletionError = anyNSError()
+        let deletionError = anyNSError()
         sut.save(items) { _ in };
-        store.completeDeletion(with: DeletionError)
+        store.completeDeletion(with: deletionError)
         XCTAssertEqual(store.receivedMessages, [.deleteCacheFeed])
     }
     
@@ -94,7 +94,7 @@ class CacheFeedUseCaseTests: XCTestCase {
     func test_save_failsOnDeletionError() {
         let items  = [uniqueItem(), uniqueItem()];
         let (sut, store) = makeSUT()
-        let DeletionError = anyNSError()
+        let deletionError = anyNSError()
         let exp = expectation(description: "wait for save completion")
         
         var receivedError : Error?
@@ -102,9 +102,9 @@ class CacheFeedUseCaseTests: XCTestCase {
             receivedError  = error
             exp.fulfill()
         }
-        store.completeDeletion(with: DeletionError)
+        store.completeDeletion(with: deletionError)
         wait(for: [exp], timeout: 1.0)
-        XCTAssertEqual(receivedError as NSError?, DeletionError)
+        XCTAssertEqual(receivedError as NSError?, deletionError)
     }
 
     // Mark: - Helper
