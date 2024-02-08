@@ -46,11 +46,17 @@ public class LocalFeedLoader {
             case .found:
                 self.store.deleteCachedFeed{ _ in }
                 completion(.success([]))
-            case .found, .empty:
+            case .empty:
                 completion(.success([]))
             }
         }
     }
+    
+    public func validateCache(){
+          store.retrieve{ _ in }
+          store.deleteCachedFeed { _ in }
+      }
+
     
     private var maxCacheAgeInDays : Int {
         return 7
