@@ -27,6 +27,7 @@
 		C4A6AA522B7460B1007112C2 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6AA512B7460B1007112C2 /* FeedStore.swift */; };
 		C4A6AA542B746507007112C2 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6AA532B746507007112C2 /* RemoteFeedItem.swift */; };
 		C4A6AA562B746546007112C2 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6AA552B746546007112C2 /* LocalFeedImage.swift */; };
+		C4A6AA582B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6AA572B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		C4A6AA512B7460B1007112C2 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		C4A6AA532B746507007112C2 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		C4A6AA552B746546007112C2 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
+		C4A6AA572B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				C4A1D3E32B6FBAEB00F9C2CF /* EssentialFeedTests.swift */,
 				C4A1D3FC2B7008B900F9C2CF /* Feed Api */,
 				C4A1D4172B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift */,
+				C4A6AA572B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				C4A1D3FE2B70146100F9C2CF /* URLSessionHTTPClientTests.swift in Sources */,
 				C4A1D3E42B6FBAEB00F9C2CF /* EssentialFeedTests.swift in Sources */,
 				C4A1D4142B70280600F9C2CF /* EssentialFeedApiEndToEndTests.swift in Sources */,
+				C4A6AA582B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
