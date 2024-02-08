@@ -43,6 +43,9 @@ public class LocalFeedLoader {
                 completion(.failure(error))
             case let .found(feed, timestamp) where self.validate(timestamp):
                 completion(.success(feed.toModels()))
+            case .found:
+                self.store.deleteCachedFeed{ _ in }
+                completion(.success([]))
             case .found, .empty:
                 completion(.success([]))
             }
@@ -73,10 +76,10 @@ private extension Array where Element == FeedImage  {
     func toLocal() -> [LocalFeedImage] {
         return map {LocalFeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url)}
     }
- }
+}
 
 private extension Array where Element == LocalFeedImage  {
     func toModels() -> [FeedImage] {
         return map {FeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url)}
     }
- }
+}
