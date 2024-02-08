@@ -8,7 +8,7 @@
 import Foundation
 import EssentialFeed
 
- class FeedStoreSpy : FeedStore {
+class FeedStoreSpy : FeedStore {
     enum ReceivedMessage:  Equatable {
         case deleteCacheFeed
         case insert([LocalFeedImage], Date)
@@ -20,7 +20,7 @@ import EssentialFeed
     private var deletionCompletions = [deletionCompletion]()
     
     private var insertionCompletions = [insertionCompletion]()
-     
+    
     private var retrievalCompletions = [retrievalCompletion]()
     
     func deleteCachedFeed(completion: @escaping deletionCompletion) {
@@ -48,13 +48,17 @@ import EssentialFeed
     func completeInsertionSuccessfully(at index: Int = 0) {
         insertionCompletions[index](nil)
     }
-     
-     func retrieve(completion: @escaping retrievalCompletion) {
-         retrievalCompletions.append(completion)
-         receivedMessages.append(.retrieve)
-     }
-     
-     func completeRetrieval(with error: Error, at index: Int = 0){
-         retrievalCompletions[index](error)
-     }
+    
+    func retrieve(completion: @escaping retrievalCompletion) {
+        retrievalCompletions.append(completion)
+        receivedMessages.append(.retrieve)
+    }
+    
+    func completeRetrieval(with error: Error, at index: Int = 0) {
+        retrievalCompletions[index](error)
+    }
+    
+    func completeRetrievalWithEmptyCache(at index: Int = 0) {
+        retrievalCompletions[index](nil)
+    }
 }
