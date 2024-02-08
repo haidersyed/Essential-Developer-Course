@@ -12,5 +12,5 @@ public protocol FeedStore {
     typealias insertionCompletion = (Error?) -> Void
     
     func deleteCachedFeed(completion: @escaping deletionCompletion)
-    func insert(_ items: [LocalFeedItem], timestamp: Date, completion: @escaping insertionCompletion)
+    func insert(_ items: [LocalFeedImage], timestamp: Date, completion: @escaping insertionCompletion)
 }
