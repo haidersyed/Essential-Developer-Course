@@ -1,0 +1,128 @@
+{
+  "" : {
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/EssentialFeed-master.dia",
+    "emit-module-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/EssentialFeed-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/EssentialFeed-master-emit-module.dia",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/EssentialFeed-master.swiftdeps"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/CodableFeedStore.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/CodableFeedStore~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Api/FeedItemsMapper.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedItemsMapper~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Api/RemoteFeedItem.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedItem~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Api/RemoteFeedLoader.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/RemoteFeedLoader~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Cache/FeedStore.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedStore~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Cache/LocalFeedImage.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedImage~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Cache/LocalFeedLoader.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/LocalFeedLoader~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Feature/FeedImage.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedImage~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Feature/FeedLoader.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedLoader~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/Feed Feature/URLSessionHTTPClient.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/URLSessionHTTPClient~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/FeedCachePolicy.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/FeedCachePolicy~partial.swiftmodule"
+  },
+  "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/EssentialFeed/HTTPClient.swift" : {
+    "const-values" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.swiftconstvalues",
+    "dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.d",
+    "diagnostics" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.dia",
+    "index-unit-output-path" : "/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.o",
+    "llvm-bc" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.bc",
+    "object" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.o",
+    "swift-dependencies" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient.swiftdeps",
+    "swiftmodule" : "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/Objects-normal-tsan/arm64/HTTPClient~partial.swiftmodule"
+  }
+}

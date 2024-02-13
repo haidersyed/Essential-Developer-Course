@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'EssentialFeedTests' in project 'EssentialFeed'
+➜ Explicit dependency on target 'EssentialFeed' in project 'EssentialFeed'
+Target 'EssentialFeedApiEndToEndTests' in project 'EssentialFeed'
+➜ Explicit dependency on target 'EssentialFeed' in project 'EssentialFeed'
+Target 'EssentialFeed' in project 'EssentialFeed' (no dependencies)

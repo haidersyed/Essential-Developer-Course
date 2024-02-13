@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/Debug/EssentialFeed.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/Debug/EssentialFeed.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "EssentialFeed-Swift.h",
+      'external-contents': "/Users/haider/Downloads/Essential Certification/Essential Developer/EssentialFeed/build/EssentialFeed.build/Debug/EssentialFeed.build/unextended-interface-header.h",
+    }]
+    }]
+}
