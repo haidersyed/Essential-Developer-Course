@@ -121,13 +121,13 @@ class  URLSessionHTTPClientTests: XCTestCase {
         }
     }
     
-    private func resultFor(data: Data?, response:URLResponse?, error: Error?, file: StaticString = #filePath, line: UInt = #line) -> HTTPClientResult {
+    private func resultFor(data: Data?, response:URLResponse?, error: Error?, file: StaticString = #filePath, line: UInt = #line) -> HTTPClient.Result {
         let url = anyURL()
         URLProtocolStub.stub(data: data, response: response, error: error)
         
         let sut = makeSUT(file:file, line: line)
         let exp = expectation(description: "Wait for completion")
-        var receivedResult: HTTPClientResult!
+        var receivedResult: HTTPClient.Result!
         
         sut.get(from: url) {result in
             receivedResult = result
