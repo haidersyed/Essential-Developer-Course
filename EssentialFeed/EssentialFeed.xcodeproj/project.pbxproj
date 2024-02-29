@@ -230,9 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				C499FE5B2B90287400CAC388 /* EssentialFeediOS.docc */,
-				C499FE7F2B90314B00CAC388 /* FeedViewController.swift */,
-				C499FE812B90322500CAC388 /* FeedImageCell.swift */,
-				C499FE832B9033FB00CAC388 /* UIView+Shimmering.swift */,
+				C499FE952B9091FE00CAC388 /* Controllers */,
+				C499FE962B90920F00CAC388 /* Views */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -264,6 +263,23 @@
 				C499FE932B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C499FE952B9091FE00CAC388 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C499FE7F2B90314B00CAC388 /* FeedViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C499FE962B90920F00CAC388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C499FE812B90322500CAC388 /* FeedImageCell.swift */,
+				C499FE832B9033FB00CAC388 /* UIView+Shimmering.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		C4A1D3CA2B6FBAEA00F9C2CF = {
