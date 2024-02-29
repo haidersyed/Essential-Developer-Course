@@ -25,6 +25,8 @@
 		C499FE8C2B90902B00CAC388 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FE8B2B90902B00CAC388 /* UIImage+TestHelpers.swift */; };
 		C499FE8E2B90906E00CAC388 /* UIRefreshControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FE8D2B90906E00CAC388 /* UIRefreshControl+TestHelpers.swift */; };
 		C499FE902B9090B100CAC388 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FE8F2B9090B100CAC388 /* UIButton+TestHelpers.swift */; };
+		C499FE922B90913800CAC388 /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FE912B90913800CAC388 /* UIControl+TestHelpers.swift */; };
+		C499FE942B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FE932B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift */; };
 		C4A1D3D92B6FBAEA00F9C2CF /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3D82B6FBAEA00F9C2CF /* EssentialFeed.docc */; };
 		C4A1D3DF2B6FBAEB00F9C2CF /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D3D42B6FBAEA00F9C2CF /* EssentialFeed.framework */; };
 		C4A1D3E52B6FBAEB00F9C2CF /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A1D3D72B6FBAEA00F9C2CF /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -130,6 +132,8 @@
 		C499FE8B2B90902B00CAC388 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		C499FE8D2B90906E00CAC388 /* UIRefreshControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		C499FE8F2B9090B100CAC388 /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
+		C499FE912B90913800CAC388 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
+		C499FE932B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		C4A1D3D42B6FBAEA00F9C2CF /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A1D3D72B6FBAEA00F9C2CF /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		C4A1D3D82B6FBAEA00F9C2CF /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				C499FE8B2B90902B00CAC388 /* UIImage+TestHelpers.swift */,
 				C499FE8D2B90906E00CAC388 /* UIRefreshControl+TestHelpers.swift */,
 				C499FE8F2B9090B100CAC388 /* UIButton+TestHelpers.swift */,
+				C499FE912B90913800CAC388 /* UIControl+TestHelpers.swift */,
+				C499FE932B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -681,7 +687,9 @@
 				C499FE712B902C6600CAC388 /* FeedViewControllerTests.swift in Sources */,
 				C499FE902B9090B100CAC388 /* UIButton+TestHelpers.swift in Sources */,
 				C499FE8E2B90906E00CAC388 /* UIRefreshControl+TestHelpers.swift in Sources */,
+				C499FE922B90913800CAC388 /* UIControl+TestHelpers.swift in Sources */,
 				C499FE8C2B90902B00CAC388 /* UIImage+TestHelpers.swift in Sources */,
+				C499FE942B90918C00CAC388 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
