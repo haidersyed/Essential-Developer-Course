@@ -238,8 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				C499FE5B2B90287400CAC388 /* EssentialFeediOS.docc */,
-				C499FE952B9091FE00CAC388 /* Controllers */,
-				C499FE962B90920F00CAC388 /* Views */,
+				C499FE9F2B9093B700CAC388 /* Feed UI */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -292,6 +291,15 @@
 				C499FE832B9033FB00CAC388 /* UIView+Shimmering.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		C499FE9F2B9093B700CAC388 /* Feed UI */ = {
+			isa = PBXGroup;
+			children = (
+				C499FE952B9091FE00CAC388 /* Controllers */,
+				C499FE962B90920F00CAC388 /* Views */,
+			);
+			name = "Feed UI";
 			sourceTree = "<group>";
 		};
 		C4A1D3CA2B6FBAEA00F9C2CF = {
