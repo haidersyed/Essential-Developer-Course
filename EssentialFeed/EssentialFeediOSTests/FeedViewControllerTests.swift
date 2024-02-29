@@ -16,7 +16,7 @@ final class FeedViewController: UITableViewController {
         self.init()
         self.loader = loader
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -37,13 +37,13 @@ final class FeedViewControllerTests: XCTestCase {
     
     func test_init_doesNotLoadFeed() {
         let (_, loader) = makeSUT()
-
+        
         XCTAssertEqual(loader.loadCallCount, 0)
     }
     
     func test_viewDidLoad_loadsFeed() {
         let (sut, loader) = makeSUT()
-
+        
         sut.loadViewIfNeeded()
         
         XCTAssertEqual(loader.loadCallCount, 1)
@@ -52,7 +52,7 @@ final class FeedViewControllerTests: XCTestCase {
     func test_pullToRefresh_loadsFeed() {
         let (sut, loader) = makeSUT()
         sut.loadViewIfNeeded()
-
+        
         sut.refreshControl?.simulatePullToRefresh()
         XCTAssertEqual(loader.loadCallCount, 2)
         
@@ -67,7 +67,7 @@ final class FeedViewControllerTests: XCTestCase {
         
         XCTAssertEqual(sut.refreshControl?.isRefreshing, true)
     }
-
+    
     func test_viewDidLoad_hidesLoadingIndicatorOnLoaderCompletion() {
         let (sut, loader) = makeSUT()
         
@@ -76,7 +76,15 @@ final class FeedViewControllerTests: XCTestCase {
         
         XCTAssertEqual(sut.refreshControl?.isRefreshing, false)
     }
-
+    
+    func test_pullToRefresh_showsLoadingIndicator() {
+        let (sut, _) = makeSUT()
+        
+        sut.refreshControl?.simulatePullToRefresh()
+        
+        XCTAssertEqual(sut.refreshControl?.isRefreshing, true)
+    }
+    
     // MARK: - Helpers
     
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedViewController, loader: LoaderSpy) {
@@ -86,7 +94,7 @@ final class FeedViewControllerTests: XCTestCase {
         trackForMemoryLeaks(sut, file: file, line: line)
         return (sut, loader)
     }
-
+    
     class LoaderSpy: FeedLoader {
         private var completions = [(FeedLoader.Result) -> Void]()
         
@@ -102,7 +110,7 @@ final class FeedViewControllerTests: XCTestCase {
             completions[0](.success([]))
         }
     }
-
+    
 }
 
 private extension UIRefreshControl {
