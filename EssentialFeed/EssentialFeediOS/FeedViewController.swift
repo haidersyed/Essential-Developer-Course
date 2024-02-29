@@ -35,7 +35,7 @@ public final class FeedViewController: UITableViewController, UITableViewDataSou
         if viewModel.isLoading {
             refreshControl?.beginRefreshing()
         } else {
-            refreshControl?.endRefreshing()
+            refreshControl?.update(isRefreshing: viewModel.isLoading)
         }
     }
     
