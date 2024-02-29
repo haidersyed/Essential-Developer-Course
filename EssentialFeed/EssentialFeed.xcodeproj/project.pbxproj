@@ -40,6 +40,8 @@
 		C499FEB22B90ACC200CAC388 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FEB12B90ACC200CAC388 /* FeedImagePresenter.swift */; };
 		C499FEB42B90AD8500CAC388 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FEB32B90AD8500CAC388 /* FeedViewModel.swift */; };
 		C499FEB62B90AD8D00CAC388 /* FeedLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499FEB52B90AD8D00CAC388 /* FeedLoadingViewModel.swift */; };
+		C499FEBC2B90B51300CAC388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C499FEB92B90B51300CAC388 /* Assets.xcassets */; };
+		C499FEBD2B90B51300CAC388 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C499FEBA2B90B51300CAC388 /* Feed.storyboard */; };
 		C4A1D3D92B6FBAEA00F9C2CF /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = C4A1D3D82B6FBAEA00F9C2CF /* EssentialFeed.docc */; };
 		C4A1D3DF2B6FBAEB00F9C2CF /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1D3D42B6FBAEA00F9C2CF /* EssentialFeed.framework */; };
 		C4A1D3E52B6FBAEB00F9C2CF /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A1D3D72B6FBAEA00F9C2CF /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,6 +162,8 @@
 		C499FEB12B90ACC200CAC388 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 		C499FEB32B90AD8500CAC388 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		C499FEB52B90AD8D00CAC388 /* FeedLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoadingViewModel.swift; sourceTree = "<group>"; };
+		C499FEB92B90B51300CAC388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Prototype/Prototype/Assets.xcassets; sourceTree = "<group>"; };
+		C499FEBB2B90B51300CAC388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Prototype/Prototype/Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
 		C4A1D3D42B6FBAEA00F9C2CF /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A1D3D72B6FBAEA00F9C2CF /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		C4A1D3D82B6FBAEA00F9C2CF /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -308,6 +312,8 @@
 		C499FE962B90920F00CAC388 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C499FEB92B90B51300CAC388 /* Assets.xcassets */,
+				C499FEBA2B90B51300CAC388 /* Feed.storyboard */,
 				C499FE812B90322500CAC388 /* FeedImageCell.swift */,
 				C499FE832B9033FB00CAC388 /* UIView+Shimmering.swift */,
 			);
@@ -715,6 +721,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C499FEBD2B90B51300CAC388 /* Feed.storyboard in Resources */,
+				C499FEBC2B90B51300CAC388 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -889,6 +897,17 @@
 			targetProxy = C4DFD6B22B7DA6BA00B30EA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C499FEBA2B90B51300CAC388 /* Feed.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C499FEBB2B90B51300CAC388 /* Base */,
+			);
+			name = Feed.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C499FE6A2B90287400CAC388 /* Debug */ = {
