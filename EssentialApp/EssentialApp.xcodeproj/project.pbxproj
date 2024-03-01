@@ -33,6 +33,7 @@
 		C46441E82B925364009EF3FD /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441E72B925364009EF3FD /* FeedImageDataLoaderCacheDecorator.swift */; };
 		C46441F02B925455009EF3FD /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441EF2B925455009EF3FD /* EssentialAppUIAcceptanceTests.swift */; };
 		C46441F72B92564E009EF3FD /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441F62B92564E009EF3FD /* DebuggingSceneDelegate.swift */; };
+		C46441F92B925728009EF3FD /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441F82B925728009EF3FD /* SceneDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		C46441ED2B925455009EF3FD /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46441EF2B925455009EF3FD /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		C46441F62B92564E009EF3FD /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
+		C46441F82B925728009EF3FD /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				C46441D42B9246F2009EF3FD /* Helpers */,
 				C46441D52B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift */,
 				C46441DF2B925097009EF3FD /* FeedImageDataLoaderCacheDecorator.swift */,
+				C46441F82B925728009EF3FD /* SceneDelegateTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				C46441E02B925097009EF3FD /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 				C46441DA2B924EAC009EF3FD /* XCTestCase+FeedLoader.swift in Sources */,
 				C46441E42B925130009EF3FD /* XCTestCase+FeedImageDataLoader.swift in Sources */,
+				C46441F92B925728009EF3FD /* SceneDelegateTests.swift in Sources */,
 				C46441D62B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				C46441E22B9250B9009EF3FD /* FeedImageDataLoaderSpy.swift in Sources */,
 				C46441CD2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
