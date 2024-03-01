@@ -19,6 +19,7 @@
 		C46441B82B923406009EF3FD /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C46441B42B923406009EF3FD /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C46441C92B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441C82B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		C46441CB2B923BE2009EF3FD /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441CA2B923BE2009EF3FD /* FeedLoaderWithFallbackComposite.swift */; };
+		C46441CD2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441CC2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		C46441C72B923ADF009EF3FD /* EssentialAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EssentialAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		C46441C82B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		C46441CA2B923BE2009EF3FD /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		C46441CC2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				C46441C82B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift */,
 				C46441C72B923ADF009EF3FD /* EssentialAppTests-Bridging-Header.h */,
+				C46441CC2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46441CD2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				C46441C92B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
