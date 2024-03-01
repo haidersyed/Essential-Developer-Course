@@ -52,6 +52,7 @@
 		C46442432B926006009EF3FD /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46442422B926006009EF3FD /* FeedAcceptanceTests.swift */; };
 		C46520A92B9264D200FF1343 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520A82B9264D200FF1343 /* HTTPClientStub.swift */; };
 		C46520AB2B92650A00FF1343 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */; };
+		C46520DF2B92716A00FF1343 /* ViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		C46442422B926006009EF3FD /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		C46520A82B9264D200FF1343 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				C46441E32B925130009EF3FD /* XCTestCase+FeedImageDataLoader.swift */,
 				C46520A82B9264D200FF1343 /* HTTPClientStub.swift */,
 				C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */,
+				C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				C46442432B926006009EF3FD /* FeedAcceptanceTests.swift in Sources */,
 				C46441C92B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				C464423A2B925CFC009EF3FD /* UIRefreshControl+TestHelpers.swift in Sources */,
+				C46520DF2B92716A00FF1343 /* ViewController+Snapshot.swift in Sources */,
 				C46442402B925CFC009EF3FD /* UIImage+TestHelpers.swift in Sources */,
 				C46441D82B924DD7009EF3FD /* FeedLoaderStub.swift in Sources */,
 				C46520AB2B92650A00FF1343 /* InMemoryFeedStore.swift in Sources */,
