@@ -74,6 +74,7 @@
 		C465212A2B929CF300FF1343 /* ImageCommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46521292B929CF300FF1343 /* ImageCommentsPresenter.swift */; };
 		C465212C2B929D0200FF1343 /* ImageCommentsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465212B2B929D0200FF1343 /* ImageCommentsPresenterTests.swift */; };
 		C465212F2B929D4100FF1343 /* ImageComments.strings in Resources */ = {isa = PBXBuildFile; fileRef = C46521312B929D4100FF1343 /* ImageComments.strings */; };
+		C46521352B929D7C00FF1343 /* ImageCommentsLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46521342B929D7C00FF1343 /* ImageCommentsLocalizationTests.swift */; };
 		C467E5E32B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E5E22B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */; };
 		C467E5E52B7B155A00DAF7D7 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E5E42B7B155A00DAF7D7 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */; };
 		C467E5E72B7B156600DAF7D7 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E5E62B7B156600DAF7D7 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
@@ -248,6 +249,9 @@
 		C46521292B929CF300FF1343 /* ImageCommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenter.swift; sourceTree = "<group>"; };
 		C465212B2B929D0200FF1343 /* ImageCommentsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsPresenterTests.swift; sourceTree = "<group>"; };
 		C46521302B929D4100FF1343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		C46521322B929D5B00FF1343 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/ImageComments.strings; sourceTree = "<group>"; };
+		C46521332B929D5B00FF1343 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/ImageComments.strings"; sourceTree = "<group>"; };
+		C46521342B929D7C00FF1343 /* ImageCommentsLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsLocalizationTests.swift; sourceTree = "<group>"; };
 		C467E5E22B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		C467E5E42B7B155A00DAF7D7 /* XCTestCase+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		C467E5E62B7B156600DAF7D7 /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
@@ -472,6 +476,7 @@
 			children = (
 				C46520EA2B9279C800FF1343 /* ImageCommentsMapperTests.swift */,
 				C465212B2B929D0200FF1343 /* ImageCommentsPresenterTests.swift */,
+				C46521342B929D7C00FF1343 /* ImageCommentsLocalizationTests.swift */,
 			);
 			path = "Image Comments API";
 			sourceTree = "<group>";
@@ -1151,6 +1156,7 @@
 				C4A6AA582B746682007112C2 /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				C4DFD6A82B7DA40800B30EA3 /* EssentialFeedCacheIntegrationTests.swift in Sources */,
 				C467E5E52B7B155A00DAF7D7 /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
+				C46521352B929D7C00FF1343 /* ImageCommentsLocalizationTests.swift in Sources */,
 				C464415E2B90DF42009EF3FD /* FeedPresenterTests.swift in Sources */,
 				C4A6AA6E2B748AD0007112C2 /* XCTestCase+FeedStoreSpec.swift in Sources */,
 				C46441692B920B28009EF3FD /* URLProtocolStub.swift in Sources */,
@@ -1231,6 +1237,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C46521302B929D4100FF1343 /* en */,
+				C46521322B929D5B00FF1343 /* el */,
+				C46521332B929D5B00FF1343 /* pt-BR */,
 			);
 			name = ImageComments.strings;
 			sourceTree = "<group>";
