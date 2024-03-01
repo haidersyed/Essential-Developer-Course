@@ -25,6 +25,7 @@
 		C46441D32B9246EE009EF3FD /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441D22B9246EE009EF3FD /* SharedTestHelpers.swift */; };
 		C46441D62B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441D52B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift */; };
 		C46441D82B924DD7009EF3FD /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441D72B924DD7009EF3FD /* FeedLoaderStub.swift */; };
+		C46441DA2B924EAC009EF3FD /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441D92B924EAC009EF3FD /* XCTestCase+FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C46441D22B9246EE009EF3FD /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		C46441D52B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		C46441D72B924DD7009EF3FD /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
+		C46441D92B924EAC009EF3FD /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				C46441D22B9246EE009EF3FD /* SharedTestHelpers.swift */,
 				C46441D72B924DD7009EF3FD /* FeedLoaderStub.swift */,
+				C46441D92B924EAC009EF3FD /* XCTestCase+FeedLoader.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46441D32B9246EE009EF3FD /* SharedTestHelpers.swift in Sources */,
+				C46441DA2B924EAC009EF3FD /* XCTestCase+FeedLoader.swift in Sources */,
 				C46441D62B924DA9009EF3FD /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				C46441CD2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				C46441C92B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
