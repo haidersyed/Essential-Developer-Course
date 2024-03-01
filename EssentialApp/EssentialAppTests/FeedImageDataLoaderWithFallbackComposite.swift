@@ -7,6 +7,7 @@
 
 import XCTest
 import EssentialFeed
+import EssentialApp
 
 class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
     
@@ -123,24 +124,6 @@ class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
         action()
         
         wait(for: [exp], timeout: 1.0)
-    }
-
-    private func trackForMemoryLeaks(_ instance: AnyObject, file: StaticString = #file, line: UInt = #line) {
-        addTeardownBlock { [weak instance] in
-            XCTAssertNil(instance, "Instance should have been deallocated. Potential memory leak.", file: file, line: line)
-        }
-    }
-    
-    func anyData() -> Data {
-        return Data("any data".utf8)
-    }
-
-    private func anyURL() -> URL {
-        return URL(string: "http://a-url.com")!
-    }
-
-    private func anyNSError() -> NSError {
-        return NSError(domain: "any error", code: 0)
     }
     
     private class LoaderSpy: FeedImageDataLoader {
