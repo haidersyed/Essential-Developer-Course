@@ -34,7 +34,7 @@
 		C46441672B920A51009EF3FD /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441642B920A23009EF3FD /* HTTPClientSpy.swift */; };
 		C46441692B920B28009EF3FD /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441682B920B28009EF3FD /* URLProtocolStub.swift */; };
 		C464416B2B920B6A009EF3FD /* LoadFeedImageDataFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464416A2B920B6A009EF3FD /* LoadFeedImageDataFromRemoteUseCaseTests.swift */; };
-		C464416D2B920CA8009EF3FD /* LocalFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464416C2B920CA8009EF3FD /* LocalFeedImageDataLoaderTests.swift */; };
+		C464416D2B920CA8009EF3FD /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464416C2B920CA8009EF3FD /* LoadFeedImageDataFromCacheUseCaseTests.swift */; };
 		C464416F2B92139E009EF3FD /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464416E2B92139E009EF3FD /* FeedImageDataStore.swift */; };
 		C46441712B9213B8009EF3FD /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46441702B9213B8009EF3FD /* LocalFeedImageDataLoader.swift */; };
 		C467E5E32B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E5E22B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */; };
@@ -180,7 +180,7 @@
 		C46441642B920A23009EF3FD /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		C46441682B920B28009EF3FD /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 		C464416A2B920B6A009EF3FD /* LoadFeedImageDataFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
-		C464416C2B920CA8009EF3FD /* LocalFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
+		C464416C2B920CA8009EF3FD /* LoadFeedImageDataFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		C464416E2B92139E009EF3FD /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		C46441702B9213B8009EF3FD /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		C467E5E22B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
@@ -580,7 +580,7 @@
 			children = (
 				C4A6AA6B2B748A87007112C2 /* FeedStoreSpecs.swift */,
 				C4DFD68B2B7D98B300B30EA3 /* CoreDataFeedStoreTests.swift */,
-				C464416C2B920CA8009EF3FD /* LocalFeedImageDataLoaderTests.swift */,
+				C464416C2B920CA8009EF3FD /* LoadFeedImageDataFromCacheUseCaseTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -948,7 +948,7 @@
 				C4A6AA5C2B7466E3007112C2 /* FeedStoreSpy.swift in Sources */,
 				C4A1D4182B7033DF00F9C2CF /* CacheFeedUseCaseTests.swift in Sources */,
 				C467E5E32B7B153D00DAF7D7 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
-				C464416D2B920CA8009EF3FD /* LocalFeedImageDataLoaderTests.swift in Sources */,
+				C464416D2B920CA8009EF3FD /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */,
 				C4A6AA6C2B748A87007112C2 /* FeedStoreSpecs.swift in Sources */,
 				C4A1D3FE2B70146100F9C2CF /* URLSessionHTTPClientTests.swift in Sources */,
 				C4A1D4142B70280600F9C2CF /* EssentialFeedApiEndToEndTests.swift in Sources */,
