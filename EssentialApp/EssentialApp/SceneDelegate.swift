@@ -24,9 +24,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }()
     
     private lazy var localFeedLoader: LocalFeedLoader = {
-            LocalFeedLoader(store: store, currentDate: Date.init)
-        }()
-
+        LocalFeedLoader(store: store, currentDate: Date.init)
+    }()
+    
     convenience init(httpClient: HTTPClient, store: FeedStore & FeedImageDataStore) {
         self.init()
         self.httpClient = httpClient
@@ -34,8 +34,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let _ = (scene as? UIWindowScene) else { return }
-        
+        guard let scene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: scene)
         configureWindow()
     }
     
@@ -59,6 +59,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     fallback: FeedImageDataLoaderCacheDecorator(
                         decoratee: remoteImageLoader,
                         cache: localImageLoader))))
+        
+        window?.makeKeyAndVisible()
     }
     
     func sceneWillResignActive(_ scene: UIScene) {
