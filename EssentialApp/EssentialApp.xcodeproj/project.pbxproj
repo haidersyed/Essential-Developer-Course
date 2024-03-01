@@ -51,6 +51,7 @@
 		C46442412B925CFC009EF3FD /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46442322B925CFC009EF3FD /* FeedViewController+TestHelpers.swift */; };
 		C46442432B926006009EF3FD /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46442422B926006009EF3FD /* FeedAcceptanceTests.swift */; };
 		C46520A92B9264D200FF1343 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520A82B9264D200FF1343 /* HTTPClientStub.swift */; };
+		C46520AB2B92650A00FF1343 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		C46442362B925CFC009EF3FD /* FeedUIIntegrationTests +LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests +LoaderSpy.swift"; sourceTree = "<group>"; };
 		C46442422B926006009EF3FD /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		C46520A82B9264D200FF1343 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
+		C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 				C46441E12B9250B9009EF3FD /* FeedImageDataLoaderSpy.swift */,
 				C46441E32B925130009EF3FD /* XCTestCase+FeedImageDataLoader.swift */,
 				C46520A82B9264D200FF1343 /* HTTPClientStub.swift */,
+				C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				C464423A2B925CFC009EF3FD /* UIRefreshControl+TestHelpers.swift in Sources */,
 				C46442402B925CFC009EF3FD /* UIImage+TestHelpers.swift in Sources */,
 				C46441D82B924DD7009EF3FD /* FeedLoaderStub.swift in Sources */,
+				C46520AB2B92650A00FF1343 /* InMemoryFeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

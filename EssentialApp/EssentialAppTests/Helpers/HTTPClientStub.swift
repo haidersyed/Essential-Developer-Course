@@ -34,8 +34,3 @@ extension HTTPClientStub {
         HTTPClientStub { url in .success(stub(url)) }
     }
 }
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
