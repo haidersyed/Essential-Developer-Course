@@ -8,6 +8,7 @@
 import Foundation
 import XCTest
 import EssentialFeediOS
+import EssentialFeed
 
 extension FeedUIIntegrationTests {
     private class DummyView: ResourceView {
