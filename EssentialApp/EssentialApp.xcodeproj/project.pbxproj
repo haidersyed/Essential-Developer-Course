@@ -53,6 +53,7 @@
 		C46520A92B9264D200FF1343 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520A82B9264D200FF1343 /* HTTPClientStub.swift */; };
 		C46520AB2B92650A00FF1343 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */; };
 		C46520DF2B92716A00FF1343 /* ViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */; };
+		C46520E12B9271A800FF1343 /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E02B9271A800FF1343 /* XCTestCase+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 		C46520A82B9264D200FF1343 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Snapshot.swift"; sourceTree = "<group>"; };
+		C46520E02B9271A800FF1343 /* XCTestCase+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				C46520A82B9264D200FF1343 /* HTTPClientStub.swift */,
 				C46520AA2B92650A00FF1343 /* InMemoryFeedStore.swift */,
 				C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */,
+				C46520E02B9271A800FF1343 /* XCTestCase+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				C46441E22B9250B9009EF3FD /* FeedImageDataLoaderSpy.swift in Sources */,
 				C464423F2B925CFC009EF3FD /* FeedUIIntegrationTests +LoaderSpy.swift in Sources */,
 				C46441CD2B923C2F009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
+				C46520E12B9271A800FF1343 /* XCTestCase+Snapshot.swift in Sources */,
 				C46442392B925CFC009EF3FD /* UIButton+TestHelpers.swift in Sources */,
 				C46442432B926006009EF3FD /* FeedAcceptanceTests.swift in Sources */,
 				C46441C92B923ADF009EF3FD /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
