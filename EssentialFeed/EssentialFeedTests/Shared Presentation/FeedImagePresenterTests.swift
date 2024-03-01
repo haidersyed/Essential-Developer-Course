@@ -8,19 +8,29 @@
 import XCTest
 import EssentialFeed
 
-class LoadResourcePresenterTests: XCTestCase {
-
+class FeedImagePresenterTests: XCTestCase {
+    
+    func test_map_createsViewModel() {
+        let image = uniqueImage()
+        
+        let viewModel = FeedImagePresenter<ViewSpy, AnyImage>.map(image)
+        
+        XCTAssertEqual(viewModel.description, image.description)
+        XCTAssertEqual(viewModel.location, image.location)
+    }
+    
+    
     func test_init_doesNotSendMessagesToView() {
         let (_, view) = makeSUT()
-
+        
         XCTAssertTrue(view.messages.isEmpty, "Expected no view messages")
     }
     
     func test_didStartLoading_displaysNoErrorMessageAndStartsLoading() {
         let (sut, view) = makeSUT()
-
+        
         sut.didStartLoading()
-
+        
         XCTAssertEqual(view.messages, [
             .display(errorMessage: .none),
             .display(isLoading: true)
@@ -52,7 +62,7 @@ class LoadResourcePresenterTests: XCTestCase {
     }
     
     // MARK: - Helpers
-
+    
     private typealias SUT = LoadResourcePresenter<String, ViewSpy>
     
     private func makeSUT(
@@ -66,7 +76,7 @@ class LoadResourcePresenterTests: XCTestCase {
         trackForMemoryLeaks(sut, file: file, line: line)
         return (sut, view)
     }
-
+    
     private func localized(_ key: String, file: StaticString = #file, line: UInt = #line) -> String {
         let table = "Shared"
         let bundle = Bundle(for: SUT.self)
@@ -76,7 +86,7 @@ class LoadResourcePresenterTests: XCTestCase {
         }
         return value
     }
-
+    
     private class ViewSpy: ResourceView, ResourceLoadingView, FeedErrorView {
         typealias ResourceViewModel = String
         
@@ -100,5 +110,5 @@ class LoadResourcePresenterTests: XCTestCase {
             messages.insert(.display(resourceViewModel: viewModel))
         }
     }
-
+    
 }
