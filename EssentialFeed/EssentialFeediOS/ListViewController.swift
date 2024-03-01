@@ -17,26 +17,13 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         }
     }()
 
-    private var onViewDidAppear: ((ListViewController) -> Void)?
-
     public var onRefresh: (() -> Void)?
 
     public override func viewDidLoad() {
         super.viewDidLoad()
 
         configureTableView()
-        configureTraitCollectionObservers()
-
-        onViewDidAppear = { vc in
-            vc.onViewDidAppear = nil
-            vc.refresh()
-        }
-    }
-
-    public override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-
-        onViewDidAppear?(self)
+        refresh()
     }
 
     private func configureTableView() {
@@ -51,18 +38,16 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         }
     }
 
-    private func configureTraitCollectionObservers() {
-        registerForTraitChanges(
-            [UITraitPreferredContentSizeCategory.self]
-        ) { (self: Self, previous: UITraitCollection) in
-            self.tableView.reloadData()
-        }
-    }
-
     public override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
         tableView.sizeTableHeaderToFit()
+    }
+
+    public override func traitCollectionDidChange(_ previous: UITraitCollection?) {
+        if previous?.preferredContentSizeCategory != traitCollection.preferredContentSizeCategory {
+            tableView.reloadData()
+        }
     }
 
     @IBAction private func refresh() {
@@ -73,8 +58,7 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
         var snapshot = NSDiffableDataSourceSnapshot<Int, CellController>()
         snapshot.appendSections([0])
         snapshot.appendItems(cellControllers, toSection: 0)
-
-        dataSource.applySnapshotUsingReloadData(snapshot)
+        dataSource.apply(snapshot)
     }
 
     public func display(_ viewModel: ResourceLoadingViewModel) {
@@ -83,16 +67,6 @@ public final class ListViewController: UITableViewController, UITableViewDataSou
 
     public func display(_ viewModel: ResourceErrorViewModel) {
         errorView.message = viewModel.message
-    }
-
-    public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let dl = cellController(at: indexPath)?.delegate
-        dl?.tableView?(tableView, didSelectRowAt: indexPath)
-    }
-
-    public override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let dl = cellController(at: indexPath)?.delegate
-        dl?.tableView?(tableView, willDisplay: cell, forRowAt: indexPath)
     }
 
     public override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {

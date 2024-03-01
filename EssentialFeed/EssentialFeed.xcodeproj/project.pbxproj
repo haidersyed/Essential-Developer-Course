@@ -508,13 +508,21 @@
 			path = "Shared Presentation";
 			sourceTree = "<group>";
 		};
+		C465213C2B92A27000FF1343 /* Shared UI */ = {
+			isa = PBXGroup;
+			children = (
+				C46441312B90CE07009EF3FD /* ErrorView.swift */,
+			);
+			name = "Shared UI";
+			sourceTree = "<group>";
+		};
 		C499FE592B90287400CAC388 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
+				C465213C2B92A27000FF1343 /* Shared UI */,
 				C499FEA02B9093FD00CAC388 /* Feed Image Loader */,
 				C499FE5B2B90287400CAC388 /* EssentialFeediOS.docc */,
 				C499FE9F2B9093B700CAC388 /* Feed UI */,
-				C46521232B9299AB00FF1343 /* ListViewController.swift */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -563,7 +571,6 @@
 				C499FEBA2B90B51300CAC388 /* Feed.storyboard */,
 				C499FE812B90322500CAC388 /* FeedImageCell.swift */,
 				C46441332B90CEE2009EF3FD /* Helpers */,
-				C46441312B90CE07009EF3FD /* ErrorView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -575,7 +582,6 @@
 				C499FEA72B9094FD00CAC388 /* Composers */,
 				C499FE952B9091FE00CAC388 /* Controllers */,
 				C499FE962B90920F00CAC388 /* Views */,
-				C46521252B9299D400FF1343 /* CellController.swift */,
 			);
 			name = "Feed UI";
 			sourceTree = "<group>";
@@ -584,7 +590,9 @@
 			isa = PBXGroup;
 			children = (
 				C46521362B92A0C600FF1343 /* ImageCommentCellController.swift */,
+				C46521252B9299D400FF1343 /* CellController.swift */,
 				C46521382B92A0D700FF1343 /* ImageCommentCell.swift */,
+				C46521232B9299AB00FF1343 /* ListViewController.swift */,
 				C465213A2B92A10600FF1343 /* ImageComments.storyboard */,
 			);
 			name = "Feed Image Loader";
