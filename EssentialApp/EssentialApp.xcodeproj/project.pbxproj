@@ -54,6 +54,7 @@
 		C46520DF2B92716A00FF1343 /* ViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */; };
 		C46520E12B9271A800FF1343 /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E02B9271A800FF1343 /* XCTestCase+Snapshot.swift */; };
 		C46520E32B92726200FF1343 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E22B92726200FF1343 /* UIView+TestHelpers.swift */; };
+		C46520E92B92777700FF1343 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E82B92777700FF1343 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		C46520DE2B92716A00FF1343 /* ViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Snapshot.swift"; sourceTree = "<group>"; };
 		C46520E02B9271A800FF1343 /* XCTestCase+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Snapshot.swift"; sourceTree = "<group>"; };
 		C46520E22B92726200FF1343 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		C46520E82B92777700FF1343 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				C46441CE2B92467C009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				C46441DD2B925001009EF3FD /* FeedLoaderCacheDecorator.swift */,
 				C46441E72B925364009EF3FD /* FeedImageDataLoaderCacheDecorator.swift */,
+				C46520E82B92777700FF1343 /* CombineHelpers.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				C46442282B925CB1009EF3FD /* MainQueueDispatchDecorator.swift in Sources */,
 				C46441DE2B925001009EF3FD /* FeedLoaderCacheDecorator.swift in Sources */,
 				C464418C2B922CCB009EF3FD /* SceneDelegate.swift in Sources */,
+				C46520E92B92777700FF1343 /* CombineHelpers.swift in Sources */,
 				C46442262B925CB1009EF3FD /* FeedUIComposer.swift in Sources */,
 				C46441CF2B92467C009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				C46442272B925CB1009EF3FD /* WeakRefVirtualProxy.swift in Sources */,
