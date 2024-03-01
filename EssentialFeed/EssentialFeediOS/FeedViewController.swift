@@ -5,8 +5,8 @@
 //  Created by Haider Rizvi on 29/02/2024.
 //
 
-import EssentialFeed
 import UIKit
+import EssentialFeed
 
 public protocol FeedViewControllerDelegate {
     func didRequestFeedRefresh()
