@@ -10,16 +10,17 @@ import EssentialFeediOS
 @testable import EssentialFeed
 
 class FeedSnapshotTests: XCTestCase {
+        
     func test_feedWithContent() {
         let sut = makeSUT()
-
+        
         sut.display(feedWithContent())
 
         assert(snapshot: sut.snapshot(for: .iPhone(style: .light)), named: "FEED_WITH_CONTENT_light")
         assert(snapshot: sut.snapshot(for: .iPhone(style: .dark)), named: "FEED_WITH_CONTENT_dark")
         assert(snapshot: sut.snapshot(for: .iPhone(style: .light, contentSize: .extraExtraExtraLarge)), named: "FEED_WITH_CONTENT_light_extraExtraExtraLarge")
     }
-
+        
     func test_feedWithFailedImageLoading() {
         let sut = makeSUT()
 
@@ -28,7 +29,16 @@ class FeedSnapshotTests: XCTestCase {
         assert(snapshot: sut.snapshot(for: .iPhone(style: .light)), named: "FEED_WITH_FAILED_IMAGE_LOADING_light")
         assert(snapshot: sut.snapshot(for: .iPhone(style: .dark)), named: "FEED_WITH_FAILED_IMAGE_LOADING_dark")
     }
+    
+    func test_feedWithLoadMoreIndicator() {
+        let sut = makeSUT()
 
+        sut.display(feedWithLoadMoreIndicator())
+
+        assert(snapshot: sut.snapshot(for: .iPhone(style: .light)), named: "FEED_WITH_LOAD_MORE_INDICATOR_light")
+        assert(snapshot: sut.snapshot(for: .iPhone(style: .dark)), named: "FEED_WITH_LOAD_MORE_INDICATOR_dark")
+    }
+    
     // MARK: - Helpers
 
     private func makeSUT() -> ListViewController {
@@ -40,7 +50,7 @@ class FeedSnapshotTests: XCTestCase {
         controller.tableView.showsHorizontalScrollIndicator = false
         return controller
     }
-
+    
     private func feedWithContent() -> [ImageStub] {
         return [
             ImageStub(
@@ -55,7 +65,7 @@ class FeedSnapshotTests: XCTestCase {
             )
         ]
     }
-
+    
     private func feedWithFailedImageLoading() -> [ImageStub] {
         return [
             ImageStub(
@@ -70,6 +80,20 @@ class FeedSnapshotTests: XCTestCase {
             )
         ]
     }
+    
+    private func feedWithLoadMoreIndicator() -> [CellController] {
+        let stub = feedWithContent().last!
+        let cellController = FeedImageCellController(viewModel: stub.viewModel, delegate: stub, selection: {})
+        stub.controller = cellController
+        
+        let loadMore = LoadMoreCellController()
+        loadMore.display(ResourceLoadingViewModel(isLoading: true))
+        return [
+            CellController(id: UUID(), cellController),
+            CellController(id: UUID(), loadMore)
+        ]
+    }
+    
 }
 
 private extension ListViewController {
@@ -79,7 +103,7 @@ private extension ListViewController {
             stub.controller = cellController
             return CellController(id: UUID(), cellController)
         }
-
+        
         display(cells)
     }
 }
@@ -95,10 +119,10 @@ private class ImageStub: FeedImageCellControllerDelegate {
             location: location)
         self.image = image
     }
-
+    
     func didRequestImage() {
         controller?.display(ResourceLoadingViewModel(isLoading: false))
-
+        
         if let image = image {
             controller?.display(image)
             controller?.display(ResourceErrorViewModel(message: .none))
@@ -106,6 +130,6 @@ private class ImageStub: FeedImageCellControllerDelegate {
             controller?.display(ResourceErrorViewModel(message: "any"))
         }
     }
-
+    
     func didCancelImageRequest() {}
 }
