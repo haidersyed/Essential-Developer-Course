@@ -55,6 +55,7 @@
 		C46520E92B92777700FF1343 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E82B92777700FF1343 /* CombineHelpers.swift */; };
 		C465214F2B92A57300FF1343 /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465214E2B92A57300FF1343 /* CommentsUIComposer.swift */; };
 		C46521512B92A61F00FF1343 /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46521502B92A61F00FF1343 /* CommentsUIIntegrationTests.swift */; };
+		C465216B2B93794800FF1343 /* NullStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465216A2B93794800FF1343 /* NullStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		C46520E82B92777700FF1343 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		C465214E2B92A57300FF1343 /* CommentsUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIComposer.swift; sourceTree = "<group>"; };
 		C46521502B92A61F00FF1343 /* CommentsUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIIntegrationTests.swift; sourceTree = "<group>"; };
+		C465216A2B93794800FF1343 /* NullStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				C46441E72B925364009EF3FD /* FeedImageDataLoaderCacheDecorator.swift */,
 				C46520E82B92777700FF1343 /* CombineHelpers.swift */,
 				C465214E2B92A57300FF1343 /* CommentsUIComposer.swift */,
+				C465216A2B93794800FF1343 /* NullStore.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				C46442262B925CB1009EF3FD /* FeedUIComposer.swift in Sources */,
 				C46441CF2B92467C009EF3FD /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				C465214F2B92A57300FF1343 /* CommentsUIComposer.swift in Sources */,
+				C465216B2B93794800FF1343 /* NullStore.swift in Sources */,
 				C46442272B925CB1009EF3FD /* WeakRefVirtualProxy.swift in Sources */,
 				C46441E82B925364009EF3FD /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 			);
