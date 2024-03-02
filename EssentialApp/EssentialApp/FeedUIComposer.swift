@@ -28,14 +28,14 @@ public final class FeedUIComposer {
         presentationAdapter.presenter = LoadResourcePresenter(
             resourceView: FeedViewAdapter(
                 controller: feedController,
-                imageLoader: imageLoader),
+                imageLoader: imageLoader,
+                selection: selection),
             loadingView: WeakRefVirtualProxy(feedController),
-            errorView: WeakRefVirtualProxy(feedController),
-            mapper: { $0 })
+            errorView: WeakRefVirtualProxy(feedController))
         
         return feedController
     }
-    
+
     private static func makeFeedViewController(title: String) -> ListViewController {
         let bundle = Bundle(for: ListViewController.self)
         let storyboard = UIStoryboard(name: "Feed", bundle: bundle)
