@@ -54,6 +54,7 @@
 		C46520E32B92726200FF1343 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E22B92726200FF1343 /* UIView+TestHelpers.swift */; };
 		C46520E92B92777700FF1343 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46520E82B92777700FF1343 /* CombineHelpers.swift */; };
 		C465214F2B92A57300FF1343 /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465214E2B92A57300FF1343 /* CommentsUIComposer.swift */; };
+		C46521512B92A61F00FF1343 /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46521502B92A61F00FF1343 /* CommentsUIIntegrationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		C46520E22B92726200FF1343 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 		C46520E82B92777700FF1343 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 		C465214E2B92A57300FF1343 /* CommentsUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIComposer.swift; sourceTree = "<group>"; };
+		C46521502B92A61F00FF1343 /* CommentsUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUIIntegrationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				C46441DF2B925097009EF3FD /* FeedImageDataLoaderCacheDecorator.swift */,
 				C46441F82B925728009EF3FD /* SceneDelegateTests.swift */,
 				C46442422B926006009EF3FD /* FeedAcceptanceTests.swift */,
+				C46521502B92A61F00FF1343 /* CommentsUIIntegrationTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				C46441E42B925130009EF3FD /* XCTestCase+FeedImageDataLoader.swift in Sources */,
 				C464422B2B925CE9009EF3FD /* FeedUIIntegrationTests.swift in Sources */,
 				C46442382B925CFC009EF3FD /* FeedImageCell+TestHelpers.swift in Sources */,
+				C46521512B92A61F00FF1343 /* CommentsUIIntegrationTests.swift in Sources */,
 				C46442412B925CFC009EF3FD /* ListViewController+TestHelpers.swift in Sources */,
 				C46441F92B925728009EF3FD /* SceneDelegateTests.swift in Sources */,
 				C464423B2B925CFC009EF3FD /* FeedUIIntegrationTests +Localization.swift in Sources */,
